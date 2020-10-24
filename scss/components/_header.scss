@@ -15,11 +15,8 @@
 ul{
     text-align: center;
     li{
-      background: transparent;
-      &:hover{
-          transition: 1s;
-          background: rgba($color: #9b9b9b, $alpha: 0.5);
-      }
+        color: gray;
+        
     }
 }
 

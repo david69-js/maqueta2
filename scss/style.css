@@ -16,13 +16,7 @@ ul {
 }
 
 ul li {
-  background: transparent;
-}
-
-ul li:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-  background: rgba(155, 155, 155, 0.5);
+  color: gray;
 }
 
 a {
@@ -47,10 +41,10 @@ a {
           transform: translate(-50%, -50%);
 }
 
-li {
+.footer li {
   list-style: none;
   float: left;
-  margin-left: 15px;
+  letter-spacing: 15px;
 }
 
 @media only screen and (max-width: 685px) {
